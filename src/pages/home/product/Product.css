@@ -1,0 +1,37 @@
+.Product{
+    margin: 40px 20px;
+}
+.product__header{
+    display: flex;
+    justify-content: center;
+}
+.product__gender{
+    display: flex;
+    justify-content: center;
+}
+.product__gender p{
+    margin: 20px;
+    font-size: 18px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.Slider__container{
+    border-style: groove;
+    width: 180px;
+    height: 320px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Slider__container__link{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Slider__container__img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}

@@ -12,7 +12,7 @@ const Header = () => {
             <nav className='nav'>
                 <div className='nav__category'>
                     <div className='nav__category__link'>
-                        <a href='https://xxivstore.com/' className=''>trang chủ</a>
+                        <a href='/' className=''>trang chủ</a>
                     </div>
                     <div className='nav__category__link'>
                         <a href='https://xxivstore.com/' className=''>giới thiệu</a>
@@ -26,11 +26,15 @@ const Header = () => {
                     <div className='nav__category__link'>
                         <a href='https://xxivstore.com/' className=''>blog</a>
                     </div>
+                    
                 </div>
                 <div className = "nav__logo">
                     <img src={xxilogo} alt="logo"></img>
                 </div>
                 <div className='nav__tool'>
+                    <div className='nav__category__link'>
+                        <a href='/signup' className=''>Sign Up</a>
+                    </div>
                     <div className='nav__tool__search nav__tool__link'>
                         <SearchIcon />
                     </div>

@@ -1,0 +1,26 @@
+.Entertaiment__container{
+    padding: 50px;
+}
+
+.Entertaiment__header{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+.Entertaiment__container__col__icon{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+.Entertaiment__container__col :nth-child(2){
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.Entertaiment__container__col :last-child{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: #666;
+    font-weight: 100;
+}
