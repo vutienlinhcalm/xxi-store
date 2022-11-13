@@ -35,6 +35,9 @@ const Header = () => {
                     <div className='nav__category__link'>
                         <a href='/signup' className=''>Sign Up</a>
                     </div>
+                    <div className='nav__category__link'>
+                        <a href='/signin' className=''>Sign In</a>
+                    </div>
                     <div className='nav__tool__search nav__tool__link'>
                         <SearchIcon />
                     </div>
